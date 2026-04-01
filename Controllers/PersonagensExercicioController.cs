@@ -109,10 +109,10 @@ namespace RpgApi.Controllers
         }
 
         // f) GetByClasse - busca por ClasseEnum
-        [HttpGet("GetByClasse/{enumid}")]
-        public IActionResult GetByClass(int enumid)
+        [HttpGet("GetByClasse/{classeid}")]
+        public IActionResult GetByClass(int classeid)
         {
-            ClasseEnum enumDigitado = (ClasseEnum)enumid;
+            ClasseEnum enumDigitado = (ClasseEnum)classeid;
             List<Personagem> busca = personagens.FindAll(x => x.Classe == enumDigitado);
 
             return Ok(busca);
