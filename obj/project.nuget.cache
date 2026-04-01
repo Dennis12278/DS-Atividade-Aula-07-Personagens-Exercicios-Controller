@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "helqiunuZ0s=",
+  "dgSpecHash": "segowJeu5ig=",
   "success": true,
-  "projectFilePath": "D:\\Local\\2DS\\DS-Luiz\\RpgApi\\RpgApi.csproj",
+  "projectFilePath": "D:\\2DS\\2) DS-Luiz\\A07\\RpgAPi\\RpgApi.csproj",
   "expectedPackageFiles": [
     "D:\\NugetPackages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
     "D:\\NugetPackages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
